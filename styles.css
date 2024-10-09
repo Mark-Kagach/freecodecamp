@@ -1,0 +1,66 @@
+body {
+  max-width: 600px;
+  margin: auto;
+  font-family: helvetica;
+  background-color: #252525;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#title{
+  font-family: georgia;
+  font-size: 40px;
+}
+
+#description, #survey-form, input {
+  font-size: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+input {
+  background-color: #666666;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #f0f0f0aa;
+}
+
+select, textarea, option {
+  display: block;
+  background-color: #666666;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: helvetica;
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.inline {
+  display: inline;
+  margin-top: 15px;
+}
+
+input[type='submit'] {
+  background-color: #e81334;
+  padding: 10px;
+  
+  width: 200px;
+  border-radius: 10px;
+  font-family: georgia;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 40px;
+  font-weight: bold;
+}
