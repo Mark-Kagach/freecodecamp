@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='styles.css'>
+    <title>Correcting Mistakes</title>
+  </head>
+
+  <body>
+
+    <h1 id='title'>Correcting Mistakes</h1>
+
+    <p id='description'>Everyone makes mistakes and I am no exception. Yet, what I try to differ in is what I do about it. <br><br>
+   This form is for submitting anything you think I am wrong about: from facts to life policies.<br><br>
+    <strong>I greatly value any submission.</strong> For every mistake I agree with I'll post it on social media and pay you a reward.</p>
+    <hr>
+
+
+    <form id='survey-form'>
+
+      <label id='textarea' style='font-size: 30px; font-family: georgia'><strong>The Mistake*</strong><textarea cols="57" rows='10' required placeholder="The decisive criticism for X is ..."></textarea></label>
+
+      <label id='number-label'>Reward You Want to Claim*<input required id='number' type="number" min='1' max='1000' placeholder="0-1000$"/></label>
+
+      <label id='dropdown'>How Do You Want to Get Paid* 
+        <select id='dropdown' required>
+          <option>Bank Transfer</option>
+          <option>PayPal</option>
+          <option>Crypto</option>
+          <option>Other (specify below)</option>
+        </select>
+      </label>
+
+      <label>Payment Information*<textarea cols="57" rows='2' required placeholder="Your bank account/ crypto wallet etc."></textarea></label>
+
+      <label>When I post about the mistake, do you want to get credit?</label>
+      <label class='inline'>
+        <input class='inline' type="radio" name='credit' value='yes' checked />Yes
+      </label>
+      <label class='inline'>
+        <input class='inline' type="radio" name='credit' value='no'/> No
+      </label>
+
+      <label id='name-label'>Name<input required id='name' type="text" placeholder="Anonymous"></input></label>
+
+      <label id='email-label'>Email<input required id='email' type="email" placeholder="name@example.com"></input></label>
+
+      <label>Social Media/ Website<input required id='website' type="link" placeholder="yourwebsite.com"></input></label>
+
+      <input id='submit' type='submit' value='Send'>
+      
+  </form>
+
+  </body>
+  
+
+  <footer>
+
+  </footer>
+</html>
